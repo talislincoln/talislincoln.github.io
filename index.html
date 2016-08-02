@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Talis Barbalho</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/mycss.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-mfizz-2.2/font-mfizz.css" rel="stylesheet" type="text/css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="js/tileGame.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top"  onclick = $("#menu-close").click(); >Talis Barbalho</a>
+            </li>
+            <li>
+                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick = $("#menu-close").click(); >About</a>
+            </li>
+            <li>
+                <a href="#services" onclick = $("#menu-close").click(); >Languages</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick = $("#menu-close").click(); >Games</a>
+            </li>
+            <li>
+                <a href="#works" onclick = $("#menu-close").click(); >Works</a>
+            </li>
+            <li>
+                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Hi, I'm Talis Barbalho</h1>
+            <h3>Programer</h3>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>I live in Toronto. I'm also passionate for games and technology.</h2>
+                    <p class="lead">
+                    My previous quests as a programmer granted me skills with Java, C++ and C# extended to HTML, CSS and javascript, but not limited to that. I've also passed enough levels to be able to learn the ability to connect them all with JSON, REST, spring.</p>
+                    <p class="lead"> Challenges are always good; they give you more experience.</p>
+                </p>
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Languages</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i id="icon-csharp" class="fa icon-csharp fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>C#</strong>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i id="icon-cplusplus" class="fa icon-cplusplus fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>C++</strong>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i id="icon-java" class="fa icon-java-bold fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Java</strong>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa icon-shell fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Shell scripting</strong>
+                                </h4>
+                            </div>
+                        </div>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-html5 fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>HTML 5</strong>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i id="icon-javascript" class="fa icon-javascript fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Javascript</strong>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-css3 fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>CSS 3</strong>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-ellipsis-h fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>And more...</strong>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Games</h2>
+                    <hr class="small">
+                    <!-- /.row (nested) -->
+                    <div id="game">
+                        <div id="gameUI">
+                            <div id="gameIntro">
+                                <h1>Tile Game!</h1>
+                                <p>This the very first game I've made in html and javascript.</p>
+                                <p><a id="gamePlay" class = "button" href="">Play</a></p>
+                            </div>
+                            <div id="gameStats">
+                                <p>Moves - <span id="nMoves" class="gameMoves"></span></p>
+                                <p><a class="gameReset" href="">Reset</a></p>
+                                <p><a class="showImage" href="">Show image</a></p>
+                            </div>
+                            <div id="gameComplete">
+                                <h1>You have won the game</h1>
+                                <p><a class="gameReset button" href="">Play Again</a></p>
+                            </div>
+                        </div>
+                        <!--<img id="image" src="images/cloud.png" width="350">-->
+                        <img id="image" src="img/shana.png" width="350">
+                        <!--<img id="image" src="images/light.png" width="350">-->
+                        <!-- <img id="image" src="images/eevee-pikachu.png"> -->
+                        <canvas id="gameCanvas" width="350" height="600">
+                        TEST
+                        </canvas>
+                    </div>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Call to Action -->
+    <section id="works" class="works bg-primary">
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div id="div-previous" class="col-lg-12 text-center">
+                <h2>Previous Jobs</h2>
+
+                    <hr class="small">
+                </div>
+                <div id="div-previous" class="col-lg-10 col-lg-offset-1">
+                    
+                    <h3 class="">Java/Web Developer</h5>
+                    <h4 class=""><a href="www.ufrn.br">Laut/UFRN</a> - Natal/Brazil - Sep 2013 to Sep 2015</h6>
+                    <p class="">
+                        Part of a team that developed a web application with a java back-end and a responsive HTML front-end.
+                        The communication between front and back-end was implemented using a framework called <a href="http://www.vraptor.org/">Vraptor</a> that works on top of CDI. This application also had a MySQL database connected through <a href="http://hibernate.org/">Hibernate</a>. Technologies: <em>Java, Vraptor, HTML, javascript, css, Hibernate, MySQL, REST, JSON, RMI.</em>
+                    </p>
+
+                    <h4><a href="http://logiquesistemas.com.br/">Logique Sistemas</a> - Natal/Brazil - Jan 2011 to Dec 2012</h6>
+                    <p>
+                        Developed a web application with front-end in Flex (Adobe) and back-end in actionscript. The application was a module for a Gas Company and it was able to present charts and reports to the managers. I also worked in a application that was capable of migrating the data from one database to another. The software was able to migrate and import data between MySQLServer, Postgres, Firebird and Oracle. Technologies: <em>Java, actionscript, databases.</em>
+                    </p>
+                    <h3>Developer - Internship</h5>
+                    <h4><a href="http://lii.dca.ufrn.br/lii/about">LII/UFRN</a> - Natal/Brazil - Jan 2008 to June 2009</h6>
+                    <p>
+                        Part of a team of that developed a High-level programming language for PLCs in Java. The software used the <a href="https://platform.netbeans.org/graph/">VisualLibrary (NetBeans)</a> to create a block diagram to implement the Ladder Logic Language. Technologies: <em>Java, <a href="https://platform.netbeans.org/graph/">Visual Library</a></em>
+                    </p>
+                    <h3 class="">C++ Developer</h5>
+                    <h4><a href="http://www.roboeduc.com/">RoboEduc</a> - Natal/Brazil - April 2010 to July 2010</h6>
+                    <p>
+                        RoboEduc is a company that uses Lego robots to teach kids how to program. My job during this time was to create a program in C++ so the kids could drag and drop objects from a pallet to a canvas. Technologies: <em>C++, <a href="http://www.qt.io/download-open-source/">QT Creator</a></em>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </aside>
+    </section>
+    
+
+    <section id="contact">
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Talis Barbalho</strong>
+                    </h4>
+                    <p><br>Toronto, Canada</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:talislincoln@gmail.com">talislincoln@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://ca.linkedin.com/pub/talis-barbalho/38/878/538">
+                                <i class="fa fa-linkedin-square fa-3x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/firebrawlers"><i class="fa fa-facebook-square fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/talislincoln"><i class="fa fa-twitter-square fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/talislincoln"><i class="fa fa-github-square fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://steamcommunity.com/profiles/76561198060103772/"><i class="fa fa-steam-square fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Talis Barbalho 2015</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+</body>
+
+</html>
